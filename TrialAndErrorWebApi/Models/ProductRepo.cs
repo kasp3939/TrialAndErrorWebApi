@@ -25,6 +25,7 @@ namespace TrialAndErrorWebApi.Models
                 string message = "Create";
                 listOfProducts.Add(new Product(id, name, category, price));
                 return message;
+
             }
         }
 
