@@ -52,5 +52,10 @@ namespace TrialAndErrorWebApi.Models
                 return _product;
             }
         } 
+
+        //public Product GetByID(int id)
+        //{
+        //    return listOfProducts.Find(product => product.Id == id);
+        //}
     }
 }
